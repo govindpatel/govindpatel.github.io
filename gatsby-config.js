@@ -26,10 +26,10 @@ module.exports = {
     ],
     author: {
       name: 'Govind Patel',
-      email: '#',
+      email: 'govind.patel.gate@gmail.com',
       telegram: '#',
-      twitter: '#',
-      github: '#',
+      twitter: 'charlimit15',
+      github: 'govindpatel',
       rss: '#',
       vk: '#'
     }

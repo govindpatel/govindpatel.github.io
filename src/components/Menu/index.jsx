@@ -25,7 +25,7 @@ class Menu extends React.Component {
 
     return (
       <nav className="menu">
-        {menuBlock}
+        {/* {menuBlock} */}
       </nav>
     );
   }
