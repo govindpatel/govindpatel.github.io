@@ -163,6 +163,12 @@ module.exports = {
           })
       }
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://github.us20.list-manage.com/subscribe/post?u=3c631c3bfebde6507b5a8223d&amp;id=facbd6f0ca', // see instructions at official plugin page
+      },
+    },
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',

@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'gatsby-link';
 import moment from 'moment';
 import Disqus from '../Disqus/Disqus';
+import Subscribe from '../Subscribe';
+
 import './style.scss';
 
 class PostTemplateDetails extends React.Component {
@@ -36,6 +38,12 @@ class PostTemplateDetails extends React.Component {
       </div>
     );
 
+    const SubscribeBlock = (
+      <div>
+        <Subscribe />
+      </div>
+    );
+
     return (
       <div>
         {homeBlock}
@@ -56,6 +64,7 @@ class PostTemplateDetails extends React.Component {
                 <br /> <strong>{author.name}</strong> on Twitter
               </a>
             </p>
+            {SubscribeBlock}
             {disqusShortname && commentsBlock}
           </div>
         </div>
