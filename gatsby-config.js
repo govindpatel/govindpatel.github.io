@@ -1,11 +1,11 @@
 module.exports = {
-  pathPrefix: "/github govindpatel",
+  // pathPrefix: "/github govindpatel",
   siteMetadata: {
     url: 'https://lumen.netlify.com',
     title: 'Blog by Govind Patel',
     subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     copyright: '© All rights reserved.',
-    disqusShortname: '',
+    disqusShortname: 'govindpatel',
     menu: [
       {
         label: 'Articles',

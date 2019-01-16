@@ -95,6 +95,11 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 [codejet](https://github.com/codejet) |[reed-jones](https://github.com/reed-jones) |[swapnilmishra](https://github.com/swapnilmishra) |[vvasiloud](https://github.com/vvasiloud) |[wichopy](https://github.com/wichopy) |
 
 
+## Local deploy
+npm install
+npm run deploy
+
+
 ## License
 The MIT License (MIT)
 
